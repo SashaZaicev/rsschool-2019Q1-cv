@@ -1,0 +1,54 @@
+
+.body {
+    font-size: 20px;
+}
+.header {
+    border: 2px solid grey;
+    max-width: 1024px;
+    min-width: 512px;
+    position: relative;
+    display: flex; 
+    margin: auto;
+    border-bottom: none;
+    
+}
+.header_name{
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.img_my_foto {
+    float: left;
+}
+/* .contacts {
+    float: right;
+} */
+.name {
+    font-size: 32px;
+    text-align: center;
+}
+.up_case {
+    text-transform: uppercase;
+}
+.section {
+    border: 2px solid grey;
+    max-width: 1024px;
+    min-width: 512px;
+    position: relative;
+    display: -webkit-flex; 
+    display: flex; 
+    margin: auto;
+    flex-direction: column;
+    
+}
+.footer {
+    border: 2px solid grey;
+    max-width: 1024px;
+    min-width: 512px;
+    position: relative;
+    display: flex; 
+    margin: auto;
+    border-top: none;
+    
+}
