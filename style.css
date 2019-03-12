@@ -1,9 +1,10 @@
 
 .body {
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-}
+    font-family: 'Roboto', sans-serif;;
+    }
 .header {
+    background: rgba(117, 184, 247, 0.733);
     border: 2px solid grey;
     max-width: 1024px;
     min-width: 512px;
@@ -11,11 +12,17 @@
     display: flex; 
     margin: auto;
     border-bottom: none;
+    background: linear-gradient(to bottom, #3888f0ef, #c7e4ff);
     }
 .header_name{
     justify-content: center;
     flex-direction: column;
     margin: auto;
+    font-weight: bold;
+    letter-spacing: 13px;
+    
+}
+main {
     
 }
 .img_my_foto {
@@ -33,20 +40,31 @@
 .skills {
     padding-left: 20px;
 }
-.contacts ul {
-    list-style: none;
-    list-style-type: none;
-    color: bisque;
+div.contacts ul li a{
+    text-decoration: none;
+    color: rgb(37, 58, 151);
+}
+div.contacts ul li a:hover{
+    color: rgb(35, 104, 25);
+}
+.ul_social {
+    font-size: 20px;
 }
 .name {
     font-size: 32px;
     text-align: center;
+    margin-top: 10px;
 }
 .up_case {
     text-align: center;
     text-transform: uppercase;
+    margin: 10px auto;
+}
+.education {
+    margin-bottom: 10px;
 }
 .section {
+    background: rgb(230, 242, 253);
     border: 2px solid grey;
     max-width: 1024px;
     min-width: 512px;
@@ -64,6 +82,8 @@
     position: relative;
     display: flex; 
     margin: auto;
+    padding: 5px 0px;
     border-top: none;
+    background: rgb(211, 225, 238);
     
 }
